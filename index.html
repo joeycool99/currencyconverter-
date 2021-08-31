@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>currency converter</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <h2>Get currency value with respect to USD(dollors):-</h2>
+    <form id="searchForm">
+        <div id="ser">
+            <div> <label for="convert">Convert USD to:-</label>
+                <input style="padding-top: 7px ;display: block;" id="convert" type="text"
+                    placeholder="(e.g.,INR,AED,AFN) " name="query">
+                <p style="margin-top: 2px;"><a href="https://en.wikipedia.org/wiki/ISO_4217#Active_codes"
+                        target="_blank">Click here (To refer
+                        all
+                        ISO currency
+                        codes)</a></p>
+            </div>
+            <div style="margin-top: 8px;"> <label for="amount">Amount in $:-</label>
+                <input style="padding-top: 7px ;display: block;" id="amount" type="text" name="amount" placeholder="$"">
+            </div>
+
+
+            <button>
+                <span>Convert!</span>
+            </button>
+        </div>
+
+    </form>
+    <div class=" container">
+                <div class="box">
+                    <span id="bit"></span>
+                </div>
+            </div>
+            <script src="app.js"></script>
+</body>
+
+</html>
